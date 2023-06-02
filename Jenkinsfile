@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "git@github.com:Shankargoud1/Terraform-Jenkins-1.git"
+                            git "git@github.com:Shankargoud1/java-hello-world-with-maven.git"
                         }
                     }
                 }
